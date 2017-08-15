@@ -3,7 +3,8 @@ pipeline {
   // where pipeline job will run
   agent any
   tools{
-  jdk "jdk1.8.0_05"
+  jdk "jdk1.8.0_05" 
+  }
   // start of stages : build, test, deploy ...
   stages {
     // start of stage : build
